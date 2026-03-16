@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# My-LibSpace
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# My Libspace
 
-## Available Scripts
+> LibSpace is a backend API project designed to teach students the fundamentals of authentication and CRUD operations using Node.js, Express, and MongoDB. The system allows users to securely register and log in to receive a JSON Web Token (JWT). Authenticated users can then manage a digital library by adding new books, viewing the entire collection or specific id, updating book details, and deleting entries, ensuring that sensitive data modification is protected by secure token verification.
 
-In the project directory, you can run:
+## 🚀 About the Project
 
-### `npm start`
+### Key Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Feature 1:** [e.g., Registration , login ,delete Account and logout ]
+- **Feature 2:** [e.g., Real-time book add ,get , update and delete]
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ Built With
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Technology 1 - e.g., Node js and Express , Jwt for authentication and bcrypt]
+- [Database - e.g., MongoDB]
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 💻 Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Follow these instructions to get a copy of the project up and running on your local machine.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `npm run eject`
+Before you begin, ensure you have the following installed:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [Requirement 1 - e.g., Node.js v14+]
+- [Requirement 2 - e.g., npm or yarn]
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1.  **Clone the repository**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    ```bash
+    git clone https://github.com/Mayankkumar1234/My-LibSpace
+    cd My-LibSpace
+    ```
 
-## Learn More
+2.  **Install dependencies**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    ```bash
+    [e.g., npm install]
+    ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3.  **Configure Environment Variables**
+    - Create a `.env` file in the root directory.
+    - Add the following variables :
+      ```
+      MONGO_URI=your_database_url
+      PORT = Your server port
+      SECRET_KEY= For JWT
+      ```
 
-### Code Splitting
+4.  **Run the application**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+npm run start or node index.js
 
-### Analyzing the Bundle Size
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
